@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 视口约束 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- IE渲染 -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script 
+      IE9以下支持html5新标签
+      src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      做响应式媒体查询
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+<title>新闻动态</title>
+<link rel="stylesheet" href="../css/animate.min.css">
+<link rel="stylesheet" href="../css/banner.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/carouse.css">
+<link rel="stylesheet" href="../css/icon.css">
+<link rel="stylesheet" href="../css/PC.css">
+<link rel="stylesheet" href="../css/index-ipad.css" media="(max-width:1000px) and (min-width:600px)">
+  <link rel="stylesheet" href="../css/index-mobile-phone.css" media="(max-width:599px)">
+
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script src="../js/index.js"></script>
+<script src="../js/canvas.js"></script>
+<script src="../js/wow.js"></script>
+<body>
+    <!-- header -->
+	<div class="pc_header">
+				<div class="pc_header_content clear">
+				  <a href="index.html" class="header_content_logo fl"><img src="../images/logo.png"></a>
+				  <div class="header_content_right clear fr">
+					<div class="menu fl clear">
+						<ul>
+							<li class="fl"><a href="index.html" class="menu_title">首页</a></li>
+							<li class="fl"><a href="about.html" class="menu_title">关于我们</a></li>
+							<li class="fl">
+							  <a href="javascript:;" class="menu_title service_items">服务项目</a>
+							  <div class="DropDown clear">
+									<div class="DropDown_content">
+									  <a href="#" class="fl ">
+									   <dd class="iconfont"></dd>
+										<dt>质量安全追溯</dt>
+									  </a>
+									  <a href="#" class="fl ">
+									   <dd class="iconfont"></dd>
+										<dt>微信营销</dt>
+									  </a>
+									  <a href="#" class="fl ">
+									   <dd class="iconfont"></dd>
+										<dt>人脸识别</dt>
+									  </a>
+									  <a href="#" class="fl ">
+									   <dd class="iconfont"></dd>
+										<dt>讯龙智能终端</dt>
+									  </a>
+									</div>
+							  </div>
+							</li>
+							<li class="fl"><a href="case.html" class="menu_title">案例展示</a></li>
+							<li class="fl on"><a href="new.html" class="menu_title">新闻动态</a></li>
+							<li class="fl "><a href="contact.html" class="menu_title">联系我们</a></li>
+						</ul>
+					</div>
+				  <div class="header_content_phone fr">
+					<span class="iconfont"></span>0351-3853826
+				</div>
+				</div>
+				<div class="burger fr">
+				  <div class="x"></div>
+				  <div class="y"></div>
+				  <div class="z"></div>
+				</div>
+			  </div>
+	</div>
+<!--右侧客服-->
+<div class="FloatingWindow clear">
+	<a href="" class="FloatingWindow_list fr" target="_blank">
+		<div class="FloatingWindow_list_title">
+			<dd class="iconfont"></dd>
+			<dt>在线咨询</dt>
+		</div>
+	</a>
+	<a href="" class="FloatingWindow_list fr" target="_blank">
+		<div class="FloatingWindow_list_title">
+			<dd class="iconfont"></dd>
+			<dt>QQ咨询</dt>
+		</div>
+	</a>
+	<a href="javascript:;" class="FloatingWindow_list fr">
+		<div class="FloatingWindow_list_title">
+			<dd class="iconfont"></dd>
+			<dt>服务热线</dt>
+		</div>
+		<div class="FloatingWindow_list_down bounceInRight animated">服务热线：021-1234567</div>
+	</a>
+	<a href="javascript:;" class="FloatingWindow_list fr" id="top">
+		<div class="FloatingWindow_list_title">
+			<dd class="iconfont"></dd>
+			<dt>TOP</dt>
+		</div>
+	</a>
+</div>
+<!-- 大广告 -->
+<div class="details_banner" style="background: url('../images/news_banner.jpg') 50% center / cover no-repeat; height: 520px;"></div>
+<div class="IndexService IndexNews news">
+        <div class="IndexService_content all wow fadeIn">
+            <div class="IndexService_content_title clear">
+                <dd class="fl">因为专注，所以专业</dd>
+            </div>
+            <div class="news_content clear">
+                <div class="news_content_list fl clear">
+                    <div class="content_list_time fl">
+                        <dd>01-11</dd>
+                        <dt class="iconfont"><span></span></dt>
+                    </div>
+                    <div class="content_list_txt fl">
+                        <dd><a href="#" target="_blank">讯龙智能生物识别终端</a></dd>
+                        <p><a href="#" target="_blank">讯龙智能生物识别终端利用最新人工智能深度学习技术开发，通过百万级人脸训练检测，识别速度0.2秒内，产品支持雷达补光、红外探测、活体检测功能。适合于工厂、学校、医院、景点、驾校、各种场馆（图书馆、健身房、自助餐厅...）</a></p>
+                    </div>
+                    <div class="content_list_img fl"><a href="#"><img src="../images/1_7.jpg" alt="讯龙智能生物识别终端" class="tra"></a></div>
+                    <!--<div class="btn  fl">TAG：</div>-->
+                </div><div class="news_content_list fl clear">
+                    <div class="content_list_time fl">
+                        <dd>01-11</dd>
+                        <dt class="iconfont"><span></span></dt>
+                    </div>
+                    <div class="content_list_txt fl">
+                        <dd><a href="#" target="_blank">讯龙红包营销定位系统</a></dd>
+                        <p><a href="#" target="_blank">结合质量追溯系统，消费者通过扫描二维码不仅可以查看产品信息还可以领取厂家发放的红包，有利于企业对产品的宣传。讯龙科技红包系统已帮助某企业营销业绩上涨50%以上。</a></p>
+                    </div>
+                    <div class="content_list_img fl"><a href="#"><img src="../images/1_8.jpg" alt="讯龙红包营销定位系统" class="tra"></a></div>
+                    <!--<div class="btn  fl">TAG：<a href='/tag/传统企业/' target='_blank'>传统企业</a><a href='/tag/网站建设/' target='_blank'>网站建设</a></div>-->
+                </div><div class="news_content_list fl clear">
+                    <div class="content_list_time fl">
+                        <dd>01-10</dd>
+                        <dt class="iconfont"><span></span></dt>
+                    </div>
+                    <div class="content_list_txt fl">
+                        <dd><a href="#" target="_blank">食品安全追溯推进会</a></dd>
+                        <p><a href="#" target="_blank">追溯系统严格围绕原辅料进货查验、生产过程控制、产品出厂检验、产品出厂销售四大环节，确定关键控制点，实现生产追溯体系中物的追溯、量的追溯和人的追溯</a></p>
+                    </div>
+                    <div class="content_list_img fl"><a href="#"><img src="../images/1_9.jpg" alt="食品安全追溯推进会" class="tra"></a></div>
+                </div>
+                </div>
+                
+                
+            
+            </div>
+            <div class="page vertical">
+                &nbsp;<li class="active"><a class="page_class">1</a></li>&nbsp;<li><a href="#">2</a></li>&nbsp;<li><a href="#">3</a></li>&nbsp;<li><a href="#">4</a></li>&nbsp;<li><a href="#">5</a></li>&nbsp;<li><a href="#">6</a></li><li><a class="next iconfont" href="#"><span></span></a></li>
+            </div>
+        </div>
+<div class="footer">
+	<div id="mydiv" style="height: 300px; padding: 0px; margin: 0px;"><canvas width="1349" height="300" style="position: inherit; top: 0px; left: 0px; z-index: -1;"></canvas></div>
+	<div class="footer_content">
+
+		<div class="footer_content_top clear">
+			<div class="content_top_share fl">
+				<div><img src="../images/logo.png"></div>
+				<div class="top_share_content">
+					<dd>分享至：</dd>
+					<dt class="bdsharebuttonbox clear bdshare-button-style1-16" id="share" data-bd-bind="1559046704868">
+						<a href="#" class="bds_tsina iconfont fl" data-cmd="tsina" title="分享到新浪微博"></a>
+						<a href="#" class="bds_sqq iconfont fl" data-cmd="sqq" title="分享到QQ好友"></a>
+						<a href="#" class="bds_weixin iconfont fl" data-cmd="weixin" title="分享到微信"></a>
+						<a href="#" class="bds_weixin iconfont fl" data-cmd="tieba" title="分享到贴吧"></a>
+					</dt>
+					<script>
+						window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+					</script>
+				</div>
+			</div>
+			<div class="content_top_left fl clear">
+				<div class="top_left_list fl">
+					<dd><a href="about.html#">关于我们</a></dd>
+					<dt>
+						<a href="about.html#">公司简介</a>
+						<a href="about.html##qywh">企业文化</a>
+						<a href="about.html##zzry">资质荣誉</a>
+					</dt>
+				</div>
+				<div class="top_left_list fl">
+					<dd><a href="service.html#">服务项目</a></dd>
+					<dt>
+						<a href="service.html#">质量安全追溯</a>
+						<a href="weixin.html#">微信红包营销</a>
+						<a href="app.html">人脸识别</a>
+						<a href="yingxiao.html">大数据定位</a>
+					</dt>
+				</div>
+				<div class="top_left_list fl">
+					<dd><a href="news.html">新闻动态</a></dd>
+					<dt>
+						<a href="newsinfo.html#hyxw/">行业新闻</a>
+						<a href="newsinfo.html#xuetang/">公司动态</a>
+						<a href="newsinfo.html#wenti/">常见问题</a>
+					</dt>
+				</div>
+				<div class="top_left_list fl">
+					<dd><a href="contact.html">联系我们</a></dd>
+					<dt>
+						<a href="contact.html">联系我们</a>
+						<a href="contact.html">人才招聘</a>
+					</dt>
+				</div>
+			</div>
+			<div class="content_top_right fr">
+				<div class="top_right_title">联系方式</div>
+				<div class="top_right_content">
+					<div class="right_content_list clear">
+						<dd class="fl iconfont"></dd>
+						<dt class="fl">电话：0351-3853826</dt>
+					</div>
+					<div class="right_content_list clear">
+						<dd class="fl iconfont"></dd>
+						<dt class="fl">QQ：879496692</dt>
+					</div>
+					<div class="right_content_list clear">
+						<dd class="fl iconfont"></dd>
+						<dt class="fl">邮箱：ideafan@sina.com</dt>
+					</div>
+					<div class="right_content_list clear">
+						<dd class="fl iconfont"></dd>
+						<dt class="fl">地址：山西省太原市万柏林区公园时代B座2615</dt>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer_content_copyright clear">Copyright©2016 山西讯龙科技有限公司版权所有  联系方式0351-3853826 <a href="" rel="nofollow" target="_blank">备案号：晋ICP备14007781号-1</a></div>
+</div>
+</body>
+</body>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 视口约束 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- IE渲染 -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script 
+      IE9以下支持html5新标签
+      src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      做响应式媒体查询
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+<title>案例分享</title>
+<link rel="stylesheet" href="../css/animate.min.css">
+<link rel="stylesheet" href="../css/banner.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/carouse.css">
+<link rel="stylesheet" href="../css/icon.css">
+<link rel="stylesheet" href="../css/PC.css">
+<link rel="stylesheet" href="../css/index-ipad.css" media="(max-width:1000px) and (min-width:600px)">
+  <link rel="stylesheet" href="../css/index-mobile-phone.css" media="(max-width:599px)">
+
+<script src="../js/jquery-1.8.3.min.js"></script>
+<script src="../js/index.js"></script>
+<script src="../js/canvas.js"></script>
+<script src="../js/wow.js"></script>
+<body>
+    <!-- header -->
+	<div class="pc_header">
+				<div class="pc_header_content clear">
+				  <a href="index.html" class="header_content_logo fl"><img src="../images/logo.png"></a>
+				  <div class="header_content_right clear fr">
+					<div class="menu fl clear">
+						<ul>
+							<li class="fl"><a href="index.html" class="menu_title">首页</a></li>
+							<li class="fl"><a href="about.html" class="menu_title">关于我们</a></li>
+							<li class="fl">
+							  <a href="javascript:;" class="menu_title service_items">服务项目</a>
+							  <div class="DropDown clear">
+									<div class="DropDown_content">
+									  <a href="#" class="fl ">
+									   <dd class="iconfont"></dd>
+										<dt>质量安全追溯</dt>
+									  </a>
+									  <a href="#" class="fl ">
+									   <dd class="iconfont"></dd>
+										<dt>微信营销</dt>
+									  </a>
+									  <a href="#" class="fl ">
+									   <dd class="iconfont"></dd>
+										<dt>人脸识别</dt>
+									  </a>
+									  <a href="#" class="fl ">
+									   <dd class="iconfont"></dd>
+										<dt>讯龙智能终端</dt>
+									  </a>
+									</div>
+							  </div>
+							</li>
+							<li class="fl  on"><a href="#" class="menu_title">案例展示</a></li>
+							<li class="fl "><a href="new.html" class="menu_title">新闻动态</a></li>
+							<li class="fl "><a href="contact.html" class="menu_title">联系我们</a></li>
+						</ul>
+					</div>
+				  <div class="header_content_phone fr">
+					<span class="iconfont"></span>0351-3853826
+				</div>
+				</div>
+				<div class="burger fr">
+				  <div class="x"></div>
+				  <div class="y"></div>
+				  <div class="z"></div>
+				</div>
+			  </div>
+	</div>
+<!--右侧客服-->
+<div class="FloatingWindow clear">
+	<a href="" class="FloatingWindow_list fr" target="_blank">
+		<div class="FloatingWindow_list_title">
+			<dd class="iconfont"></dd>
+			<dt>在线咨询</dt>
+		</div>
+	</a>
+	<a href="" class="FloatingWindow_list fr" target="_blank">
+		<div class="FloatingWindow_list_title">
+			<dd class="iconfont"></dd>
+			<dt>QQ咨询</dt>
+		</div>
+	</a>
+	<a href="javascript:;" class="FloatingWindow_list fr">
+		<div class="FloatingWindow_list_title">
+			<dd class="iconfont"></dd>
+			<dt>服务热线</dt>
+		</div>
+		<div class="FloatingWindow_list_down bounceInRight animated">服务热线：021-1234567</div>
+	</a>
+	<a href="javascript:;" class="FloatingWindow_list fr" id="top">
+		<div class="FloatingWindow_list_title">
+			<dd class="iconfont"></dd>
+			<dt>TOP</dt>
+		</div>
+	</a>
+</div>
+<!-- 大广告 -->
+<div class="case_banner" style="background: url('../images/case_banner.jpg') 50% center / cover no-repeat; height: 660px"></div>
+<div class="IndexService IndexCase" id="digital">
+        <div class="IndexService_content all wow fadeIn animated">
+          <div class="IndexService_content_title">
+            <dd>案例展示 / case show</dd>
+            <dt>
+              <p>累计为超过2000家食品生产企业提供互联网技术解决或咨询服务，包含知名企业，如：冠云牛肉、古城乳业、九牛牧业、汾阳王酒业、汾酒集团、六味斋、陈世家醋业</p>
+              <p>老传统醋业等；涉及：酒、肉、奶、醋、调味品等多个行业</p>
+            </dt>
+          </div>
+          <div class="IndexCase_content clear">
+          
+                  <div class="IndexCase_content_list fl wow fadeInUp" data-wow-delay="0.1s">
+              <div class="content_list_img">
+                <div><img src="../images/1_1.jpg" class="tra" alt="山西汾阳王酒业有限公司"></div>
+                <div class="content_list_hover iconfont">
+                  <dd></dd>
+                  <dt></dt>
+                  <div class="hr"><a href="#" title="山西汾阳王酒业有限公司" target="_blank"><img src="../images/bn7.png"></a></div>
+                </div>
+              </div>
+              <div class="content_list_title clear">
+                <div class="list_title_left fl">
+                  <dd><a href="#" target="_blank">山西汾阳王酒业有限公司</a><i>|</i><span>实现食品安全可追溯信息化</span></dd>
+                  <dt>酒类企业 </dt>
+                </div>
+                <div class="list_title_icon fr iconfont"></div>
+              </div>
+            </div>
+                  <div class="IndexCase_content_list fl wow fadeInUp" data-wow-delay="0.1s">
+              <div class="content_list_img">
+                <div><img src="../images/1_2.jpg" class="tra" alt="山西九牛牧业有限公司"></div>
+                <div class="content_list_hover iconfont">
+                  <dd></dd>
+                  <dt></dt>
+                  <div class="hr"><a href="#" title="山西九牛牧业有限公司" target="_blank"><img src="../images/bn7.png"></a></div>
+                </div>
+              </div>
+              <div class="content_list_title clear">
+                <div class="list_title_left fl">
+                  <dd><a href="#" target="_blank">山西九牛牧业有限公司</a><i>|</i><span>食品安全追溯系统</span></dd>
+                  <dt>乳制品</dt>
+                </div>
+                <div class="list_title_icon fr iconfont"></div>
+              </div>
+            </div>
+                  <div class="IndexCase_content_list fl wow fadeInUp" data-wow-delay="0.1s">
+              <div class="content_list_img">
+                <div><img src="../images/1_3.jpg" class="tra" alt="山西省平遥牛肉集团有限公司"></div>
+                <div class="content_list_hover iconfont">
+                  <dd></dd>
+                  <dt></dt>
+                  <div class="hr"><a href="#" title="山西省平遥牛肉集团有限公司" target="_blank"><img src="../images/bn7.png"></a></div>
+                </div>
+              </div>
+              <div class="content_list_title clear">
+                <div class="list_title_left fl">
+                  <dd><a href="#" target="_blank">山西省平遥牛肉集团有限公司</a><i>|</i><span>实现食品安全可追溯</span></dd>
+                  <dt>肉类企业</dt>
+                </div>
+                <div class="list_title_icon fr iconfont"></div>
+              </div>
+            </div>
+                  <div class="IndexCase_content_list fl wow fadeInUp" data-wow-delay="0.1s">
+              <div class="content_list_img">
+                <div><img src="../images/1_4.jpg" class="tra" alt="山西维尔生物乳业有限公司"></div>
+                <div class="content_list_hover iconfont">
+                  <dd></dd>
+                  <dt></dt>
+                  <div class="hr"><a href="#" title="山西维尔生物乳业有限公司" target="_blank"><img src="../images/bn7.png"></a></div>
+                </div>
+              </div>
+              <div class="content_list_title clear">
+                <div class="list_title_left fl">
+                  <dd><a href="#" target="_blank">山西维尔生物乳业有限公司</a><i>|</i><span>实现食品安全可追溯</span></dd>
+                  <dt>乳制品 / 扫码追溯</dt>
+                </div>
+                <div class="list_title_icon fr iconfont"></div>
+              </div>
+            </div>
+                  <div class="IndexCase_content_list fl wow fadeInUp" data-wow-delay="0.1s">
+              <div class="content_list_img">
+                <div><img src="../images/1_5.jpg" class="tra" alt="山西杏花村汾酒集团宝泉涌有限责任公司"></div>
+                <div class="content_list_hover iconfont">
+                  <dd></dd>
+                  <dt></dt>
+                  <div class="hr"><a href="#" title="山西杏花村汾酒集团宝泉涌有限责任公司" target="_blank"><img src="../images/bn7.png"></a></div>
+                </div>
+              </div>
+              <div class="content_list_title clear">
+                <div class="list_title_left fl">
+                  <dd><a href="#" target="_blank">山西杏花村汾酒集团宝泉涌有限责任公司</a><i>|</i><span>实现食品安全可追溯</span></dd>
+                  <dt>酒类/ 食品安全追溯 </dt>
+                </div>
+                <div class="list_title_icon fr iconfont"></div>
+              </div>
+            </div>
+                  <div class="IndexCase_content_list fl wow fadeInUp" data-wow-delay="0.1s">
+              <div class="content_list_img">
+                <div><img src="../images/1_6.jpg" class="tra" alt="山西陈世家酿业有限责任公司"></div>
+                <div class="content_list_hover iconfont">
+                  <dd></dd>
+                  <dt></dt>
+                  <div class="hr"><a href="#" title="山西陈世家酿业有限责任公司" target="_blank"><img src="../images/bn7.png"></a></div>
+                </div>
+              </div>
+              <div class="content_list_title clear">
+                <div class="list_title_left fl">
+                  <dd><a href="#" target="_blank">山西陈世家酿业有限责任公司</a><i>|</i><span>实现食品安全可追溯</span></dd>
+                  <dt>醋类企业 / 食品安全追溯</dt>
+                </div>
+                <div class="list_title_icon fr iconfont"></div>
+              </div>
+            </div>
+                  
+          </div>
+          <div class="page vertical">
+                &nbsp;<li class="active"><a class="page_class">1</a></li>&nbsp;<li><a href="#">2</a></li>&nbsp;<li><a href="#">3</a></li>&nbsp;<li><a href="#">4</a></li>&nbsp;<li><a href="#">5</a></li>&nbsp;<li><a href="#">6</a></li><li><a class="next iconfont" href="#"><span></span></a></li>
+          </div>
+        </div>
+      </div>
+<div class="footer">
+	<div id="mydiv" style="height: 300px; padding: 0px; margin: 0px;"><canvas width="1349" height="300" style="position: inherit; top: 0px; left: 0px; z-index: -1;"></canvas></div>
+	<div class="footer_content">
+
+		<div class="footer_content_top clear">
+			<div class="content_top_share fl">
+				<div><img src="../images/logo.png"></div>
+				<div class="top_share_content">
+					<dd>分享至：</dd>
+					<dt class="bdsharebuttonbox clear bdshare-button-style1-16" id="share" data-bd-bind="1559046704868">
+						<a href="#" class="bds_tsina iconfont fl" data-cmd="tsina" title="分享到新浪微博"></a>
+						<a href="#" class="bds_sqq iconfont fl" data-cmd="sqq" title="分享到QQ好友"></a>
+						<a href="#" class="bds_weixin iconfont fl" data-cmd="weixin" title="分享到微信"></a>
+						<a href="#" class="bds_weixin iconfont fl" data-cmd="tieba" title="分享到贴吧"></a>
+					</dt>
+					<script>
+						window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+					</script>
+				</div>
+			</div>
+			<div class="content_top_left fl clear">
+				<div class="top_left_list fl">
+					<dd><a href="about.html#">关于我们</a></dd>
+					<dt>
+						<a href="about.html#">公司简介</a>
+						<a href="about.html##qywh">企业文化</a>
+						<a href="about.html##zzry">资质荣誉</a>
+					</dt>
+				</div>
+				<div class="top_left_list fl">
+					<dd><a href="service.html#">服务项目</a></dd>
+					<dt>
+						<a href="service.html#">质量安全追溯</a>
+						<a href="weixin.html#">微信红包营销</a>
+						<a href="app.html">人脸识别</a>
+						<a href="yingxiao.html">大数据定位</a>
+					</dt>
+				</div>
+				<div class="top_left_list fl">
+					<dd><a href="news.html">新闻动态</a></dd>
+					<dt>
+						<a href="newsinfo.html#hyxw/">行业新闻</a>
+						<a href="newsinfo.html#xuetang/">公司动态</a>
+						<a href="newsinfo.html#wenti/">常见问题</a>
+					</dt>
+				</div>
+				<div class="top_left_list fl">
+					<dd><a href="contact.html">联系我们</a></dd>
+					<dt>
+						<a href="contact.html">联系我们</a>
+						<a href="contact.html">人才招聘</a>
+					</dt>
+				</div>
+			</div>
+			<div class="content_top_right fr">
+				<div class="top_right_title">联系方式</div>
+				<div class="top_right_content">
+					<div class="right_content_list clear">
+						<dd class="fl iconfont"></dd>
+						<dt class="fl">电话：0351-3853826</dt>
+					</div>
+					<div class="right_content_list clear">
+						<dd class="fl iconfont"></dd>
+						<dt class="fl">QQ：879496692</dt>
+					</div>
+					<div class="right_content_list clear">
+						<dd class="fl iconfont"></dd>
+						<dt class="fl">邮箱：ideafan@sina.com</dt>
+					</div>
+					<div class="right_content_list clear">
+						<dd class="fl iconfont"></dd>
+						<dt class="fl">地址：山西省太原市万柏林区公园时代B座2615</dt>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer_content_copyright clear">Copyright©2016 山西讯龙科技有限公司版权所有  联系方式0351-3853826 <a href="" rel="nofollow" target="_blank">备案号：晋ICP备14007781号-1</a></div>
+</div>
+</body>
+</body>
